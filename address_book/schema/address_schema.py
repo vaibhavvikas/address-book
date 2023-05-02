@@ -33,5 +33,4 @@ class UpdateAddressSchema(AddressSchema):
 
 
 class DeleteAddressSchema(AddressSchema):
-    pid: str
     status = "Address deleted successfully"
